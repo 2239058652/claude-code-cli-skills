@@ -3,7 +3,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$REPO     = "YOUR_USERNAME/claude-statusline"
+$REPO     = "2239058652/claude-code-cli-skills"
 $RAW_BASE = "https://raw.githubusercontent.com/$REPO/main"
 $CLAUDE_DIR = "$env:USERPROFILE\.claude"
 
