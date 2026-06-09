@@ -97,7 +97,10 @@ C:\Users\你的用户名\.claude\settings.json
 
 ```json
 {
-  "statusCommand": "bash ~/.claude/statusline-command.sh",
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
   "env": {
     "CLAUDE_CODE_NO_FLICKER": "1"
   }
@@ -109,7 +112,10 @@ C:\Users\你的用户名\.claude\settings.json
 ```json
 {
   "原有字段": "原有内容",
-  "statusCommand": "bash ~/.claude/statusline-command.sh",
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
   "env": {
     "CLAUDE_CODE_NO_FLICKER": "1"
   }
